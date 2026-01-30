@@ -74,6 +74,7 @@
     font-weight: 700;
     line-height: 16px;
     margin-bottom: 36px;
+    cursor: pointer;
 }
 
 .register-with {
@@ -81,6 +82,41 @@
     font-size: 13px;
     line-height: 16px;
     text-align: center;
+    margin-bottom: 27px;
 }
+
+.google {
+    width: 300px;
+    height: 40px;
+    color: #727272;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 13px 68px 11px; 
+    border-radius: 5px;
+    border:none;
+    background: #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.facebook {
+    width: 300px;
+    height: 40px;
+    color: #727272;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 13px 68px 11px; 
+    border-radius: 5px;
+    border:none;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
 
 
