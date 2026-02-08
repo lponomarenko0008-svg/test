@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Tahoma, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 33px;
+    padding-bottom: 25px;
+    border-bottom: 0.3px #46a358 solid;
+}
+
+.logo {
+    width: 150px;
+    height: 35pt;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 244px;
+}
+
+.menu {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu a {
+    display: inline-block;
+    vertical-align: middle;
+    color: #3d3d3d;
+    text-decoration: none;
+    padding-right: 50px;
+}
+
+.menu a:hover {
+    color: #000000;
+}
+
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btn-login {
+    margin-left: 320px;
+    border-radius: 6px;
+    background: #46A358;
+    width: 100px;
+    height: 35px;
+    color: #FFF;
+    font-weight: 500;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 7px 1px 8px 0;
+}
+
+.login {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 8px 17px 8px 0;
+    cursor: pointer;
+}
+
+.box {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+}
+
+.shop-now {
+    display: inline-block;
+    vertical-align: top;
+    height: 450px;
+    width: 530px;
+    padding: 68px 0 85px 17px;
+}
+
+.item {
+    color: #3D3D3D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 114.286% */
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+}
+
+.shop-now h1 {
+    color: #3D3D3D;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+    width: 530px;
+}
+
+.shop-now span {
+    color: #46A358;
+}
+
+.item-2 {
+    color: #727272;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 55px;
+}
+
+.btn-shop {
+    width: 140px;
+    height: 40px;
+    border-radius: 6px;
+    background: #46A358;
+    color: #FFF;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 85px;
+}
+
+.plants {
+    display: inline-block;
+    vertical-align: top;
+    height: 450px;
+    width: 485px;
+    margin-left: 116px;
+}
+
