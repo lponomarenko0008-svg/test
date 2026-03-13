@@ -1,18 +1,57 @@
+@font-face {
+    font-family: 'Cera Pro';
+    src: url(../fonts/CeraPro-Black.woff2) format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url(../fonts/CeraPro-Bold.woff2) format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url(../fonts/CeraPro-Medium.woff2) format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url(../fonts/CeraPro-Regular.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
 }
 
 .body {
-    font-family: Tahoma, sans-serif;
+    font-family: 'Cera Pro';
     font-weight: normal;
     font-style: normal;
     font-size: 16px;
 }
 
 .wrapper {
-    width: 1200px;
+    max-width: 1230px;
+    min-width: 991px;
     margin: 0 auto;
+    padding: 0 15px;
+}
+
+.img-responsive {
+    max-width:100%;
+    height:auto;
 }
 
 .header {
@@ -45,7 +84,6 @@
 }
 
 .btn-login {
-    margin-left: 320px;
     border-radius: 6px;
     background: #46A358;
     width: 100px;
@@ -71,7 +109,6 @@
 .box {
     display: flex;
     font-size: 0;
-    width: 1200px;
     padding-bottom: 46px;
 }
 
@@ -110,7 +147,7 @@
     color: #727272;
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     line-height: 24px;
     padding-bottom: 55px;
 }
