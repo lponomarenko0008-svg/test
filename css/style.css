@@ -108,13 +108,11 @@
 
 .box {
     display: flex;
-    font-size: 0;
     padding-bottom: 46px;
 }
 
 .shop-now {
-    height: 450px;
-    width: 530px;
+    width: 100%px;
     padding: 68px 0 85px 17px;
 
 }
@@ -165,9 +163,9 @@
 
 .plants {
     vertical-align: top;
-    height: 450px;
-    width: 485px;
+    width: 100%;
     margin-left: 116px;
+    margin: 0 -15px;
 }
 
 .catalog {
@@ -176,11 +174,13 @@
 }
 
 .catalog-left {
-    width: 285px;
+    width: 25%;
+    padding: 0 10px;
 }
 
 .catalog-main {
-    width: 895px;
+    width: 75%;
+    padding: 0 10px;
 }
 
 .catalog-menu-title {
@@ -214,9 +214,12 @@ li {
 }
 
 .banner {
-    width: 285px;
-    height: 470px;
     padding-right: 20px;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
 }
 
 .menu-02 {
@@ -236,11 +239,14 @@ li {
     padding-bottom: 36px;
 }
 
+.catalog-list {
+    margin: 0 -15 px;
+}
+
 .catalog-item {
-    width: 285px;
-    margin-right: 20px;
-    margin-bottom: 70px;
-    height: 350px;
+    width: 33,333%;
+    padding: 0 10px 70px;
+
 }
 
 .catalog-item-pic {
@@ -269,6 +275,11 @@ li {
     font-size: 18px;
     font-weight: 700;
     line-height: 16px;
+}
+
+.catalog-item img {
+    max-width: 100%;
+    height: auto;
 }
 
 .pages-navigator ul {
