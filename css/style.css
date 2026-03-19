@@ -59,7 +59,7 @@
     border-bottom: 0.3px #46a358 solid;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 17px;
+    padding: 20px 0;
 }
 
 .menu {
@@ -98,6 +98,48 @@
 .icon {
     vertical-align: middle;
     padding: 7px 1px 8px 0;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+}
+
+.icon-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  margin-right: 20px;
+}
+
+.search-icon {
+    margin-right: 30px;
+}
+
+.cart-link {
+    position: relative;
+}
+
+.icon-link svg {
+  display: block;
+}
+
+.cart-count {
+  position: absolute;
+  top: -5px;
+  right: -8px;
+  background-color: #46a358;
+  color: #FFF;
+  font-size: 10px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #fff;
+  font-weight: 500;
 }
 
 .login {
@@ -240,17 +282,21 @@ li {
 }
 
 .catalog-list {
-    margin: 0 -15 px;
+    margin: 0 -15px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .catalog-item {
-    width: 33,333%;
-    padding: 0 10px 70px;
-
+    width: 33.333%;
+    padding: 0 15px 70px;
+    margin-bottom: 38px;
 }
 
 .catalog-item-pic {
-    height: 300px;
+    height: auto;
+    width: 100%;
+    display: block;
     background-color: #FBFBFB;
 }
 
@@ -299,4 +345,63 @@ li {
     height: 35px;
     padding: 11px;
     text-align: center;
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  background-color: #FBFBFB;
+}
+
+.box2-item {
+  display: flex;
+  align-items: center;
+  flex: 0 1 550px;
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.box2-image {
+  flex: 0 0 200px;
+  text-align: center;
+}
+
+.box2-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.box2-content {
+  flex: 1;
+  padding-left: 20px;
+  text-align: right;
+}
+
+.box2-title {
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  color: #3D3D3D;
+}
+
+.box2-text {
+  font-size: 14px;
+  color: #727272;
+  margin-bottom: 20px;
+  line-height: 24px;
+}
+
+.btn-find {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #46a358;
+  color: #FFF;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 14px;
 }
