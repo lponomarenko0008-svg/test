@@ -64,6 +64,63 @@
 
 .menu {
     display: flex;
+    list-style: none;
+}
+
+.dropdown-parent {
+    position: relative;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f5f6f5;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+    padding: 10px 0;
+    list-style: none;
+    z-index: 1;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.dropdown li a {
+    color: #333;
+    padding: 8px 15px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+
+.dropdown li a:hover {
+    background-color: #f1f1f1;
+    color: #46a358;
+}
+
+.dropdown-parent:hover .dropdown {
+    display: block;
+}
+
+.dropdown:hover > a {
+    border-bottom: 3px solid #46a358;
+    padding-bottom: 5px;
+}
+
+.dropdown::before {
+    content: "";
+    left: 5px;
+    display: block;
+    top: -20px;
+    width: 90px;
+    height: 20px;
+    background-color: transparent;
+    position: absolute;
+}
+
+.dropdown ul {
+    position: relative;
 }
 
 .menu a {
@@ -293,11 +350,56 @@ li {
     margin-bottom: 38px;
 }
 
+.label-sale {
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    top: -3px;
+    left: -5px;
+    background-color: #46A358;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; 
+    padding: 5px 10px;
+
+}
+
 .catalog-item-pic {
+    position: relative;
     height: auto;
     width: 100%;
     display: block;
     background-color: #FBFBFB;
+}
+
+.item-icons {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    margin-right: 10px;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    box-shadow: 0 4 px 10px rgba (0, 0, 0, 0.1);
+}
+
+.catalog-item:hover .item-icons {
+    display: flex;
+}
+
+.item-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-right: 22px;
+
 }
 
 .catalog-list {
